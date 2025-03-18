@@ -56,7 +56,7 @@ def clean_names_gemini(df, output_file="cleaned_names.csv"):
 
     print(f"Данные сохранены в {output_file}")
 
-#Обработка датафрейме
+#Обработка нужного нам датафрейма
 df_cleaned = clean_names_gemini(df)
 
 #Далее сверяем с исходным датафреймом, все ли строки обработались. Если нет, вырезаем те, 
